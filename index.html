@@ -1,0 +1,41 @@
+<!--04/12/2022-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ismael">
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="estiloCalc.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <form action="">
+        <ul>
+            <li>
+                <label for="valor1">Digite um numero </label>
+                <input type="text"id="valor1" required>
+            </li>
+            <li>
+                <label for="operacao">Qual é a operação</label>
+                <select id="operacao">
+                    <option value="+">+(soma)</option>
+                    <option value="-">-(diferencia)</option>
+                    <option value="*">*(produto)</option>
+                    <option value="/">/(quociente)</option>
+                </select>
+            </li>
+            <li>
+                <label for="valor2">Digite outro valor</label>
+                <input type="text" id="valor2" required>
+            </li>   
+        </ul>
+        <input class="Butao1" type="button" onclick="Calcular('valor1','valor2','operacao','saida')" value="Calcular">
+        <input class="Butao2" type="button" onclick="Limpar('valor1','valor2')" value="Apagar valores">
+    </form>
+    <p id="saida"></p>
+</body>
+
+</html>
