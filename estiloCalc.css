@@ -1,0 +1,97 @@
+form{
+    margin:0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid rgb(235, 209, 209);
+    border-radius: 1em;
+    text-align: center;
+    background-color: rgb(155, 243, 144);
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li+li{
+    margin-top: 1em;
+}
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+input{
+    font: 1em sans-serif;
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgb(213, 232, 240);
+}
+input:focus{
+    border-color: rgb(3, 3, 34);
+}
+.Butao1 {
+    border: none;
+    border-radius: 5px;
+    padding: 0px 0px;
+    outline: none;
+    background-color: rgb(4, 48, 33);
+    color: azure;
+    font-size: 15px;
+    box-shadow: 1px 5px #222121;
+    cursor: pointer;
+}
+.Butao1:hover{
+    background-color: rgb(7, 94, 94);
+
+}
+.Butao1:active{
+    background-color: rgb(7, 94,94);
+    box-shadow: 0 4px #0801018a;
+    transform: translateY(4px);
+}
+.Butao2 {
+    border: none;
+    border-radius: 5px;
+    padding: 0px 0px;
+    outline: none;
+    background-color: rgb(4, 48, 33);
+    color: azure;
+    font-size: 15px;
+    box-shadow: 1px 5px #222121;
+    cursor: pointer;
+}
+.Butao2:hover{
+    background-color: rgb(7, 94, 94);
+
+}
+.Butao2:active{
+    background-color: rgb(7, 94,94);
+    box-shadow: 0 4px #0801018a;
+    transform: translateY(4px);
+}
+p{
+    margin:0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid rgb(235, 209, 209);
+    border-radius: 1em;
+    text-align: center;
+    color: rgb(3, 11, 31);
+    font: 1em sans-serif;
+    background-color: rgb(169, 243, 155);
+}
+h1{
+    margin:0 auto;
+    width: 500px;
+    padding: 1em;
+    text-align: center;
+    color: rgb(3, 11, 31);
+    font: 3em sans-serif;
+   
+}
+body{
+    background-color: rgb(193, 247, 183); 
+}
+select{
+    background-color: rgb(183, 240, 191);
+}
